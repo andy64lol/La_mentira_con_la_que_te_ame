@@ -13,7 +13,7 @@
 ##
 ## El _() que rodea la cadena de texto la señala como traducible.
 
-define config.name = _("The lie I loved you with")
+define config.name = _("La mentira con la que te amé")
 
 
 ## Determina si el título dado más arriba se muestra en el menú principal.
@@ -121,7 +121,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## infinito; cualquier otro número indica el número de caracteres por segundo
 ## que se mostrarán.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 10
 
 
 ## El retraso por defecto del auto-avance. Números más grandes indican esperas
