@@ -1,13 +1,15 @@
 define Yui = Character("Yui", color="#239ade")
-define You = Character("You", color="#404040")
+define You = Character("Tú", color="#404040")
 define Unknown = Character("???", color="#404040")
 
-image bg housebedroomyourday = "bg/housebedroomyourday.png"
+image bg housebedroomyourday = "bg/Bedroom_Day.png"
 image bg parkday = "bg/parkday.jpg"
 image bg schoolhallway = "bg/schoolhallway.jpg"
 image bg classroom = "bg/Classroom_Day.png"
 image bg yuiroom = "bg/yuiroom.png"
 image bg trainstation = "bg/trainstation.jpg"
+image bg housebedroomnight = "bg/Bedroom_Night.png"
+image bg housebedroomevening = "bg/Bedroom_Evening.png"
 
 image yui happytalk = "yui/yui happytalk.png"
 image yui happynormal = "yui/yui happynormal.png"
@@ -168,10 +170,10 @@ label start:
 
     menu:
         "¿Cuándo?":
-            jump revelation
+            jump bedroom_night
         "¿Por qué no me dijiste antes?":
             $ yui_affection += 1
-            jump revelation
+            jump bedroom_night
 
 init python:
     yui_affection = 0

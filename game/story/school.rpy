@@ -151,3 +151,8 @@ label truth_moment:
             jump neutral_ending
         "Entonces adiós":
             jump bad_ending
+        "Espera, hay algo más que debo decirte":
+            if yui_affection >= 2:
+                jump last_minute_good_ending
+            else:
+                jump last_minute_bad_ending

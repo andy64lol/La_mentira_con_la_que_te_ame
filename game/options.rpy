@@ -31,7 +31,13 @@ define config.version = "1.0"
 ## comillas triples y deja una línea en blanco entre párrafos.
 
 define gui.about = _p("""
+Créditos:
+
+Fondos por Noraneko - Agradecemos su increíble trabajo en los fondos del juego.
+
+Hecho con Ren'Py.
 """)
+
 
 
 ## Nombre breve del juego para ejecutables y directorios en la distribución.
